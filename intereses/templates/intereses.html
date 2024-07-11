@@ -1,0 +1,1055 @@
+{% extends 'layouts/base.html' %}
+{% block content %}
+
+    <h1>Intereses Ocupacionales</h1>
+    <form action="IngresarIntereses.php">
+        <ol>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+                
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Geofísicos" value="0">0</label>
+                <label><input type="radio" name="Geofísicos" value="1">1</label>
+                <label><input type="radio" name="Geofísicos" value="2">2</label>
+                <label><input type="radio" name="Geofísicos" value="3">3</label>
+                <label><input type="radio" name="Geofísicos" value="4">4</label>
+                <label><input type="radio" name="Geofísicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Musical" value="0">0</label>
+                <label><input type="radio" name="Musical" value="1">1</label>
+                <label><input type="radio" name="Musical" value="2">2</label>
+                <label><input type="radio" name="Musical" value="3">3</label>
+                <label><input type="radio" name="Musical" value="4">4</label>
+                <label><input type="radio" name="Musical" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Artístico-Plástica" value="0">0</label>
+                <label><input type="radio" name="Artístico-Plástica" value="1">1</label>
+                <label><input type="radio" name="Artístico-Plástica" value="2">2</label>
+                <label><input type="radio" name="Artístico-Plástica" value="3">3</label>
+                <label><input type="radio" name="Artístico-Plástica" value="4">4</label>
+                <label><input type="radio" name="Artístico-Plástica" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Organización" value="0">0</label>
+                <label><input type="radio" name="Organización" value="1">1</label>
+                <label><input type="radio" name="Organización" value="2">2</label>
+                <label><input type="radio" name="Organización" value="3">3</label>
+                <label><input type="radio" name="Organización" value="4">4</label>
+                <label><input type="radio" name="Organización" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Persuasivo" value="0">0</label>
+                <label><input type="radio" name="Persuasivo" value="1">1</label>
+                <label><input type="radio" name="Persuasivo" value="2">2</label>
+                <label><input type="radio" name="Persuasivo" value="3">3</label>
+                <label><input type="radio" name="Persuasivo" value="4">4</label>
+                <label><input type="radio" name="Persuasivo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Servicio Social" value="0">0</label>
+                <label><input type="radio" name="Servicio Social" value="1">1</label>
+                <label><input type="radio" name="Servicio Social" value="2">2</label>
+                <label><input type="radio" name="Servicio Social" value="3">3</label>
+                <label><input type="radio" name="Servicio Social" value="4">4</label>
+                <label><input type="radio" name="Servicio Social" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Campestres" value="0">0</label>
+                <label><input type="radio" name="Campestres" value="1">1</label>
+                <label><input type="radio" name="Campestres" value="2">2</label>
+                <label><input type="radio" name="Campestres" value="3">3</label>
+                <label><input type="radio" name="Campestres" value="4">4</label>
+                <label><input type="radio" name="Campestres" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Científicos" value="0">0</label>
+                <label><input type="radio" name="Científicos" value="1">1</label>
+                <label><input type="radio" name="Científicos" value="2">2</label>
+                <label><input type="radio" name="Científicos" value="3">3</label>
+                <label><input type="radio" name="Científicos" value="4">4</label>
+                <label><input type="radio" name="Científicos" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Cálculo" value="0">0</label>
+                <label><input type="radio" name="Cálculo" value="1">1</label>
+                <label><input type="radio" name="Cálculo" value="2">2</label>
+                <label><input type="radio" name="Cálculo" value="3">3</label>
+                <label><input type="radio" name="Cálculo" value="4">4</label>
+                <label><input type="radio" name="Cálculo" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Literarios" value="0">0</label>
+                <label><input type="radio" name="Literarios" value="1">1</label>
+                <label><input type="radio" name="Literarios" value="2">2</label>
+                <label><input type="radio" name="Literarios" value="3">3</label>
+                <label><input type="radio" name="Literarios" value="4">4</label>
+                <label><input type="radio" name="Literarios" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Biológicos" value="0">0</label>
+                <label><input type="radio" name="Biológicos" value="1">1</label>
+                <label><input type="radio" name="Biológicos" value="2">2</label>
+                <label><input type="radio" name="Biológicos" value="3">3</label>
+                <label><input type="radio" name="Biológicos" value="4">4</label>
+                <label><input type="radio" name="Biológicos" value="5">5</label>
+            </li>
+            <li>	
+                <label><input type="radio" name="Contabilidad" value="0">0</label>
+                <label><input type="radio" name="Contabilidad" value="1">1</label>
+                <label><input type="radio" name="Contabilidad" value="2">2</label>
+                <label><input type="radio" name="Contabilidad" value="3">3</label>
+                <label><input type="radio" name="Contabilidad" value="4">4</label>
+                <label><input type="radio" name="Contabilidad" value="5">5</label>
+            </li>
+            <li>
+                <label><input type="radio" name="Mecánicos" value="0">0</label>
+                <label><input type="radio" name="Mecánicos" value="1">1</label>
+                <label><input type="radio" name="Mecánicos" value="2">2</label>
+                <label><input type="radio" name="Mecánicos" value="3">3</label>
+                <label><input type="radio" name="Mecánicos" value="4">4</label>
+                <label><input type="radio" name="Mecánicos" value="5">5</label>
+            </li>
+        </ol>
+        <br/><button type="submit">Calcular</button>
+        <br/><button type="reset">Reintentar</button>
+    </form>
+</body>
+</html>
+
+{% endblock  %}

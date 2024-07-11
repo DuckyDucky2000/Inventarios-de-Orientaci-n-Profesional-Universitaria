@@ -1,0 +1,1299 @@
+{% extends 'layouts/base.html' %}
+{% block content %}
+
+    <h1>Aptitudes</h1>
+    <form action="IngresarAptitudes.php">
+        <ol>
+            <li>Comprender con facilidad cómo se conectan algunos elementos, por ejemplo, las relaciones entre los
+                órganos del cuerpo humano, las relaciones que se dan entre los elementos químicos, etcétera.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica1" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica1" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica1" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica1" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica1" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica1" value="5">5</label>
+                </div>
+            </li>
+            <li>Decorar, con pincel fino, pequeñas figuras humanas (pintar la boca, ojos, cejas, etc.).<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz2" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz2" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz2" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz2" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz2" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz2" value="5">5</label>
+                </div>
+            </li>
+            <li>Ayudar a un especialista en diseño de juegos electrónicos a realizar juegos sencillos que impliquen
+                razonamiento numérico. <br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica3" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica3" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica3" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica3" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica3" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica3" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta cuando un conferencista, al estar presentando su tema, lo expone de manera
+                coordinada.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal4" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal4" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal4" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal4" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal4" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal4" value="5">5</label>
+                </div>
+            </li>
+            <li>Dar buenas ideas a un grupo de vendedores (que van casa por casa) acerca de cómo convencer a los
+                clientes para comprar el producto ofrecido.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva5" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva5" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva5" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva5" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva5" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva5" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender las partes y funciones de un velero, así como su operación y armado.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica6" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica6" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica6" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica6" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica6" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica6" value="5">5</label>
+                </div>
+            </li>
+            <li>Escuchar a alguien durante un largo periodo, sin interrumpirle, sin juzgarlo, y aceptar lo como
+                es.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social7" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social7" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social7" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social7" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social7" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social7" value="5">5</label>
+                </div>
+            </li>
+            <li>Distribuir las funciones y responsabilidades a los miembros de un grupo o equipo de trabajo, procurando
+                que todos se sientan lo más conformes con esta distribución.<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva8" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva8" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva8" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva8" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva8" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva8" value="5">5</label>
+                </div>
+            </li>
+            <li>Tomar un curso sobre cómo realizar los inventarios de un pequeño almacén, mediante una computadora
+                sencilla, y aprender fácilmente.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion9" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion9" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion9" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion9" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion9" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion9" value="5">5</label>
+                </div>
+            </li>
+            <li>Apreciar las diferencias entre la música clásica, la popular y la moderna.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical10" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical10" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical10" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical10" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical10" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical10" value="5">5</label>
+                </div>
+            </li>
+            <li>Diseñar el logotipo de una empresa.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica11" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica11" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica11" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica11" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica11" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica11" value="5">5</label>
+                </div>
+            </li>
+            <li>Armar rompecabezas geométricos (cubo de Rubik, por ejemplo).<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial12" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial12" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial12" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial12" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial12" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial12" value="5">5</label>
+                </div>
+            </li>
+            <li>Hacer trazos finos en papel, sin perder la línea y sin ayuda de reglas.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz13" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz13" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz13" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz13" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz13" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz13" value="5">5</label>
+                </div>
+            </li>
+            <li>Reconocer tus errores cuando discutes con otra persona, aunque ésta no sea de tu total agrado o tenga
+                puntos contrarios a los tuyos.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social14" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social14" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social14" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social14" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social14" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social14" value="5">5</label>
+                </div>
+            </li>
+            <li>Diseñar una revista de pasatiempo, con problemas sencillos, con base en relaciones numéricas
+                (aritmética-algebra).<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica15" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica15" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica15" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica15" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica15" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica15" value="5">5</label>
+                </div>
+            </li>
+            <li>Explicar fácilmente, al terminar una lectura (sobre cualquier género de novelas), como se relacionan los
+                personajes o cómo se desarrolla la trama.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal16" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal16" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal16" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal16" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal16" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal16" value="5">5</label>
+                </div>
+            </li>
+            <li>Idear un sistema rápido a un cronista deportivo, para que gráficamente pueda organizar datos deportivos
+                tales como: hits promedios de bateo, bases robadas, home runes, etc. De una temporada.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion17" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion17" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion17" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion17" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion17" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion17" value="5">5</label>
+                </div>
+            </li>
+            <li>Ser presidente de un club social y decirle a cada uno de los miembros de la mesa directiva sus aciertos
+                y, sin dudar, sus errores, de forma precisa.<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva18" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva18" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva18" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva18" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva18" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva18" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender las partes y funciones de un planeador, así como su operación y armado.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica19" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica19" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica19" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica19" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica19" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica19" value="5">5</label>
+                </div>
+            </li>
+            <li>Dar buenas sugerencias a un grupo de publicistas sobre cómo presentar un producto en un comercial de TV
+                o de radio.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva20" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva20" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva20" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva20" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva20" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva20" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender las nomenclaturas químicas o el funcionamiento estructural de todos los órganos del cuerpo
+                humano.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica21" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica21" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica21" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica21" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica21" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica21" value="5">5</label>
+                </div>
+            </li>
+            <li>Diseñar figuras geométricas en tres dimensiones, variando las posiciones y perspectivas.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial22" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial22" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial22" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial22" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial22" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial22" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender técnicas para realizar pinturas en acuarela y óleo.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica23" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica23" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica23" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica23" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica23" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica23" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender el manejo de la herramienta propia para modelar y esculpir jarro, trabajar vidrio, porcelana,
+                latón y piel, de manera artesanal.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica24" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica24" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica24" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica24" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica24" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica24" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta fácilmente si el profesor omitió un dato o punto necesario para la resolución de un
+                problema durante el examen de matemáticas y saber con precisión lo que faltó.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica25" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica25" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica25" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica25" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica25" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica25" value="5">5</label>
+                </div>
+            </li>
+            <li>Idear un sistema para pequeñas tiendas de regalos, en el que puedan llevar un inventario de la
+                existencia de sus productos.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion26" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion26" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion26" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion26" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion26" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion26" value="5">5</label>
+                </div>
+            </li>
+            <li>Hacer un buen resumen de cualquier libro o escrito que hayas leído, con toda la información relevante
+                bien organizada.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal27" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal27" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal27" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal27" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal27" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal27" value="5">5</label>
+                </div>
+            </li>
+            <li>Orientarte rápidamente en una gran ciudad.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial28" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial28" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial28" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial28" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial28" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial28" value="5">5</label>
+                </div>
+            </li>
+            <li>Operar y dar mantenimiento a un tractor agrícola, incluyendo sus implementos.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica29" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica29" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica29" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica29" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica29" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica29" value="5">5</label>
+                </div>
+            </li>
+            <li>Cumplir, a la perfección, una tarea asignada por tus padres, un profesor o jefe de trabajo.<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva30" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva30" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva30" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva30" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva30" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva30" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a leer, interpretar y combinar notas musicales.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical31" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical31" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical31" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical31" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical31" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical31" value="5">5</label>
+                </div>
+            </li>
+            <li>Decorar bellamente el aparador de una tienda o un puesto en una feria o verbena.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica32" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica32" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica32" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica32" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica32" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica32" value="5">5</label>
+                </div>
+            </li>
+            <li>Reconocer en una persona que no sea de tu agrado, su fortaleza, sus virtudes y sus aciertos.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social33" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social33" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social33" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social33" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social33" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social33" value="5">5</label>
+                </div>
+            </li>
+            <li>Comentar en un programa televisivo de la universidad, las ventajas y desventajas de las planillas que
+                aspiran a dirigir la sociedad de alumnos, y argumentar a favor de una de ellas.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva34" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva34" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva34" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva34" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva34" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva34" value="5">5</label>
+                </div>
+            </li>
+            <li>Sacar astillas de la piel con pinzas para las cejas (en el primer intento).<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz35" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz35" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz35" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz35" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz35" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz35" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a usar métodos científicos para profundizar en el conocimiento de las relaciones que, por
+                ejemplo, hay entre los seres vivos que integran el ecosistema, los cambios químicos que se dan en la
+                naturaleza, etcétera.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica36" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica36" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica36" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica36" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica36" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica36" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender el punto de vista de un compañero y poder explicar fácilmente todas sus Razones para ver las
+                cosas desde esa perspectiva (aunque no te agrade ese punto de vista Ni tu compañero).<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social37" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social37" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social37" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social37" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social37" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social37" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender fácilmente artículos de revistas que versan sobre investigación en las Ciencias Naturales, como
+                química, biología, geofísica, etcétera.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica38" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica38" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica38" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica38" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica38" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica38" value="5">5</label>
+                </div>
+            </li>
+            <li>Detectar, con facilidad, errores en un plan de trabajo que te pidieron revisar (pueden ser errores en
+                fechas, metas que se proponen, pasos, puntos omitidos, etc.).<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva39" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva39" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva39" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva39" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva39" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva39" value="5">5</label>
+                </div>
+            </li>
+            <li>Instalar, operar y darle mantenimiento a una computadora casera con sólo estudiar el manual o
+                instructivo de operaciones.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica40" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica40" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica40" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica40" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica40" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica40" value="5">5</label>
+                </div>
+            </li>
+            <li>Identificar errores ortográficos, en la organización de los párrafos y errores de redacción d3 un
+                periódico al momento de estar leyéndolo.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal41" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal41" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal41" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal41" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal41" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal41" value="5">5</label>
+                </div>
+            </li>
+            <li>Darle buenas sugerencias a un banco pequeño acerca de cómo organizar los departamentos de atención al
+                público con el fin de que los clientes no hagan largas filas de espera.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion42" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion42" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion42" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion42" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion42" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion42" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta cuándo un profesor comete errores al estar explicando al grupo la solución (procedimientos)
+                de un problema de matemáticas.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica43" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica43" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica43" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica43" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica43" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica43" value="5">5</label>
+                </div>
+            </li>
+            <li>Soldar piezas de un aparato electrónico muy pequeñas sin cometer un error al colocar las y sin tocar
+                otras partes del artefacto.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz44" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz44" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz44" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz44" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz44" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz44" value="5">5</label>
+                </div>
+            </li>
+            <li>Sugerir a alguien que va a construir su casa la forma en que debería ir la distribución de la misma,
+                aprovechando al máximo todos los espacios.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial45" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial45" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial45" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial45" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial45" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial45" value="5">5</label>
+                </div>
+            </li>
+            <li>Trabajar durante las vacaciones en el departamento de un almacén comercial (libros, música, ferretería,
+                etc.) Y aumentar en ese periodo las ventas o consumo por los clientes que lo visitan.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva46" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva46" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva46" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva46" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva46" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva46" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a ejecutar, con dominio, uno o varios instrumentos musicales.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical47" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical47" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical47" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical47" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical47" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical47" value="5">5</label>
+                </div>
+            </li>
+            <li>Recordar, detalladamente, las indicaciones dadas por alguien para llegar a una dirección
+                Desconocida.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial48" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial48" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial48" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial48" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial48" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial48" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a diferenciar lo bello de la pintura de los grandes clásicos, en relación con Otras
+                pinturas.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica49" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica49" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica49" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica49" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica49" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica49" value="5">5</label>
+                </div>
+            </li>
+            <li>Dar, a una asamblea de padres de familia, un discurso que sea sumamente emotivo y Convincente para
+                cambiar ciertas actitudes de ellos.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva50" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva50" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva50" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva50" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva50" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva50" value="5">5</label>
+                </div>
+            </li>
+            <li>Explicar de modo lógico y claro en una clase cómo evolucionan y se transforman los Seres vivos, de
+                acuerdo con las teorías evolucionistas de Darwin, o explicar en qué consistieron los métodos y
+                descubrimientos de algunos grandes químicos como Pasteur.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica51" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica51" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica51" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica51" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica51" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica51" value="5">5</label>
+                </div>
+            </li>
+            <li>Fungir como tercero en un conflicto (sin tomar partido por las personas involucradas) Y conciliar a las
+                partes en pugna, aunque una de ellas te simpatice mucho.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social52" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social52" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social52" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social52" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social52" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social52" value="5">5</label>
+                </div>
+            </li>
+            <li>Supervisar y corregir la redacción de un discurso que algún compañero tuyo vaya a dirigir a una
+                asamblea.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal53" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal53" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal53" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal53" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal53" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal53" value="5">5</label>
+                </div>
+            </li>
+            <li>54. Aprender el sistema de clasificación que se utiliza para los archivos de la Nación<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion54" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion54" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion54" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion54" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion54" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion54" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender la clase de matemáticas.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica55" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica55" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica55" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica55" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica55" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica55" value="5">5</label>
+                </div>
+            </li>
+            <li>Ensartar hilos finos en agujas muy pequeñas, sin que lo intentes más de tres veces.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz56" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz56" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz56" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz56" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz56" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz56" value="5">5</label>
+                </div>
+            </li>
+            <li>Interpretar y aplicar el reglamento a un miembro de una sociedad o de un club de amigos que lo haya
+                infringido (aunque esta aplicación implique la expulsión del grupo de alguien muy amigo tuyo).<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva57" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva57" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva57" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva57" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva57" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva57" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender con facilidad un audiovisual que explique cómo están diseñadas las herramientas modernas para
+                reparar y construir las maquinarias en que se utilizaran.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica58" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica58" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica58" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica58" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica58" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica58" value="5">5</label>
+                </div>
+            </li>
+            <li>Recordar, durante una segunda visita, el lugar de una colonia intrincada, en donde vive Alguien
+                conocido.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial59" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial59" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial59" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial59" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial59" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial59" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a complementar los distintos instrumentos musicales en la ejecución de Una pieza.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical60" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical60" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical60" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical60" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical60" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical60" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender técnicas para construir maquetas y objetos de cualquier tipo a escala.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica61" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica61" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica61" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica61" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica61" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica61" value="5">5</label>
+                </div>
+            </li>
+            <li>Orientarse con la ayuda de Mapas en una gran ciudad.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial62" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial62" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial62" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial62" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial62" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial62" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender fácilmente la explicación de un armero sobre cómo funciona cierto tipo de Armamento militar, ya
+                sean fusiles, ametralladoras o artillería pesada.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica63" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica63" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica63" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica63" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica63" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica63" value="5">5</label>
+                </div>
+            </li>
+            <li>Prever e identificar las consecuencias para ti y para los demás (de manera detallada y Precisa) de las
+                decisiones que tomas.<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva64" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva64" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva64" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva64" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva64" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva64" value="5">5</label>
+                </div>
+            </li>
+            <li>Colocar sin errores, con pinzas pequeñas, los engranes de un reloj.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz65" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz65" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz65" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz65" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz65" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz65" value="5">5</label>
+                </div>
+            </li>
+            <li>Explicar una lección de matemáticas a un grupo de compañeros menos aventajados, de Manera más sencilla
+                que el profesor.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica66" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica66" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica66" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica66" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica66" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica66" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender y mejorar el sistema de clasificación y localización de piezas en una refaccionaria.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion67" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion67" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion67" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion67" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion67" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion67" value="5">5</label>
+                </div>
+            </li>
+            <li>Explicar de forma clara y lógica a un grupo de personas, con tus propias palabras y con Ejemplos
+                ilustrativos, un pasaje o un capitulo de algún libro que hayas leído.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal68" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal68" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal68" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal68" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal68" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal68" value="5">5</label>
+                </div>
+            </li>
+            <li>Comprender con facilidad como una persona cercana a ti ve desde su interior el mundo. Comprender también
+                los sentimientos que tiene y sus esperanzas.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social69" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social69" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social69" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social69" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social69" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social69" value="5">5</label>
+                </div>
+            </li>
+            <li>Aplicar las leyes y teorías de la química o de la biología cuando resolvemos un problema de esa
+                naturaleza.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica70" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica70" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica70" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica70" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica70" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica70" value="5">5</label>
+                </div>
+            </li>
+            <li>Generar argumentos, ante un auditorio, a favor de tu punto de vista o de algún proyecto.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva71" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva71" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva71" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva71" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva71" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva71" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a hacer arreglos musicales.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical72" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical72" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical72" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical72" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical72" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical72" value="5">5</label>
+                </div>
+            </li>
+            <li>Resolver problemas de matemáticas, seleccionar las formulas y procedimientos necesarios de manera
+                precisa y fácil.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica73" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica73" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica73" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica73" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica73" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica73" value="5">5</label>
+                </div>
+            </li>
+            <li>Apretar, con un pequeño desarmador, los tornillos de los anteojos<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz74" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz74" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz74" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz74" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz74" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz74" value="5">5</label>
+                </div>
+            </li>
+            <li>Planear una estrategia para que un grupo de compañeros tuyos tenga éxito en una campaña política o en
+                cualquier actividad<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva75" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva75" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva75" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva75" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva75" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva75" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender con facilidad a afinar automóviles o a dar mantenimiento y reparación a aparatos caseros como
+                podadoras de pasto, calentadores de gas, estufas, etcétera. <br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica76" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica76" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica76" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica76" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica76" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica76" value="5">5</label>
+                </div>
+            </li>
+            <li>Dar ideas al párroco o ministro de tu iglesia acerca de como mejorar sus sermones o explicaciones hacia
+                los feligreses.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva77" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva77" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva77" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva77" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva77" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva77" value="5">5</label>
+                </div>
+            </li>
+            <li>Obtener fácilmente conclusiones o una síntesis de algún trabajo que haya encargado el profesor de
+                biología o de química sobre cualquier tema.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica78" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica78" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica78" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica78" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica78" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica78" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta de los deseos, preocupaciones o sentimientos de alguien, sólo por ver sus gestos y
+                movimientos.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social79" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social79" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social79" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social79" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social79" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social79" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender con mucha precisión las instrucciones y las preguntas de un examen.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal80" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal80" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal80" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal80" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal80" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal80" value="5">5</label>
+                </div>
+            </li>
+            <li>Diseñarle a una pequeña ferretería un sistema para localizar rápidamente los productos que el cliente
+                pide.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion81" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion81" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion81" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion81" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion81" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion81" value="5">5</label>
+                </div>
+            </li>
+            <li>Combinar materiales de todo tipo (yeso, madera, pinturas) para hacer objetos de ornato, como floreros,
+                ceniceros, pisapapeles, etcétera.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica82" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica82" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica82" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica82" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica82" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica82" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a escribir y leer música, ya la vez hacer composiciones musicales.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical83" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical83" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical83" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical83" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical83" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical83" value="5">5</label>
+                </div>
+            </li>
+            <li>Distinguir errores en las perspectivas de los dibujos.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial84" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial84" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial84" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial84" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial84" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial84" value="5">5</label>
+                </div>
+            </li>
+            <li>Hacerle ver a un grupo que discute cosas que no han considerado o puntos omitidos que puedan influir en
+                sus opiniones sobre lo discutido.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva85" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva85" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva85" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva85" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva85" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva85" value="5">5</label>
+                </div>
+            </li>
+            <li>Construir, en un taller de aficionados, artefactos sencillos, como un velero, un planeador o un
+                cuatriciclo, siguiendo los planos de una revista.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica86" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica86" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica86" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica86" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica86" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica86" value="5">5</label>
+                </div>
+            </li>
+            <li>Lograr entusiasmar a un grupo de trabajo que se encuentra pesimista en cuanto a las metas de trabajo por
+                lograr.<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva87" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva87" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva87" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva87" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva87" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva87" value="5">5</label>
+                </div>
+            </li>
+            <li>Enhebrar rápidamente un collar de perlas.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz88" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz88" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz88" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz88" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz88" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz88" value="5">5</label>
+            </li>
+            <li>Darte cuenta de inmediato de cual es el error de un compañero que no puede resolver un problema de
+                matemáticas.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica89" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica89" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica89" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica89" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica89" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica89" value="5">5</label>
+                </div>
+            </li>
+            <li>Participar con un diseño tuyo, con probabilidades de ganar, en un concurso de la escuela cuyo objetivo o
+                meta sea el de proponer un sistema de clasificación para los expedientes de los estudiantes.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion90" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion90" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion90" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion90" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion90" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion90" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta de inmediato cuando un profesor te aplicó un examen con errores de redacción en las
+                instrucciones y en las preguntas.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal91" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal91" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal91" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal91" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal91" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal91" value="5">5</label>
+                </div>
+            </li>
+            <li>Predecir la forma en que un conocido tuyo va a actuar, lo que va a decir y a pensar en una situación
+                dada.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social92" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social92" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social92" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social92" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social92" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social92" value="5">5</label>
+                </div>
+            </li>
+            <li>Comprender la relación entre estructuras y funciones de los órganos del cuerpo humano; establecer cómo
+                se relacionan todos los sistemas, o hacer esto mismo con temas de química, como, por ejemplo, la tabla
+                periódica.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica93" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica93" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica93" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica93" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica93" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica93" value="5">5</label>
+                </div>
+            </li>
+            <li>Diseñar la decoración de un hogar o una oficina.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica94" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica94" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica94" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica94" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica94" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica94" value="5">5</label>
+                </div>
+            </li>
+            <li>95. Hacerle a un carpintero, detalladamente (con ángulos, medidas, superficies, etc.), un diseño sobre
+                el tipo de muebles que deseas te haga.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial95" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial95" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial95" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial95" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial95" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial95" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender los métodos (cómo hicieron sus hipótesis, como relacionaron, cómo comprobaron, cómo aplicaron
+                sus teorías, etc.) Por lo que un químico o algún biólogo famoso logra llegar a sus
+                descubrimientos.<br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica96" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica96" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica96" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica96" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica96" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica96" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta rápidamente cuando alguien está pasando por un mal momento y necesita ayuda, sin que te lo
+                diga.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social97" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social97" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social97" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social97" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social97" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social97" value="5">5</label>
+                </div>
+            </li>
+            <li>Escribir un guion teatral o alguna pequeña obra, relacionando y ordenando correcta mente los diálogos de
+                los personajes, las escenas, etcétera<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal98" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal98" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal98" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal98" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal98" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal98" value="5">5</label>
+                </div>
+            </li>
+            <li>Mejorar el procedimiento de inscripciones en la escuela, creando uno más rápido, más fácil, practico y
+                eficiente.<br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion99" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion99" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion99" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion99" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion99" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion99" value="5">5</label>
+                </div>
+            </li>
+            <li>Prestar ayuda al profesor de matemáticas para plantear problemas de repaso referentes a la clase.<br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica100" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica100" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica100" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica100" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica100" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica100" value="5">5</label>
+                </div>
+            </li>
+            <li>Pegar piedras preciosas en un collar, viendo a través de una lupa.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz101" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz101" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz101" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz101" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz101" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz101" value="5">5</label>
+                </div>
+            </li>
+            <li>Hacer e que todos los miembros de un grupo de trabajo den lo mejor que tienen, sin sentirse presionados
+                o perseguidos Etc.<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva102" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva102" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva102" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva102" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva102" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva102" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender (fácilmente) en un curso, la reparación de productos electrónicos, mecánicos y la teoría que
+                los fundamenta<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica103" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica103" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica103" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica103" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica103" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica103" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender a ser un buen orador mediante un curso rápido y sencillo.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva104" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva104" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva104" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva104" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva104" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva104" value="5">5</label>
+                </div>
+            </li>
+            <li>Darte cuenta cuando alguien tuvo errores en la ejecución de una pieza musical.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical105" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical105" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical105" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical105" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical105" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical105" value="5">5</label>
+                </div>
+            </li>
+            <li>Dibujar figuras a detalle (sombreadas, en movimiento, etc.).<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica106" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica106" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica106" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica106" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica106" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica106" value="5">5</label>
+                </div>
+            </li>
+            <li>Ejemplificar fácilmente como se pueden observar en la vida cotidiana las leyes y principios de la
+                biología o química. <br />
+                <div id="AbstractaCientifica" class="AbstractaCientifica">
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica107" value="0">0</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica107" value="1">1</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica107" value="2">2</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica107" value="3">3</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica107" value="4">4</label>
+                    <label><input type="radio" id="AbstractaCientifica" name="AbstractaCientifica107" value="5">5</label>
+                </div>
+            </li>
+            <li>Saber identificar el momento oportuno para dar un consejo, empezar una conversación o hacerle una
+                pregunta a alguien sin que se sienta presionado. Interprete melodías de moda.<br />
+                <div id="Social" class="Social">
+                    <label><input type="radio" id="Social" name="Social108" value="0">0</label>
+                    <label><input type="radio" id="Social" name="Social108" value="1">1</label>
+                    <label><input type="radio" id="Social" name="Social108" value="2">2</label>
+                    <label><input type="radio" id="Social" name="Social108" value="3">3</label>
+                    <label><input type="radio" id="Social" name="Social108" value="4">4</label>
+                    <label><input type="radio" id="Social" name="Social108" value="5">5</label>
+                </div>
+            </li>
+            <li>Dirigir un grupo musical que interprete melodías de moda.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical109" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical109" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical109" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical109" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical109" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical109" value="5">5</label>
+                </div>
+            </li>
+            <li>Ordenar fácil y rápidamente rompecabezas escritos, cuyas oraciones, párrafos, títulos o subtítulos,
+                están todos en desorden.<br />
+                <div id="Verbal" class="Verbal">
+                    <label><input type="radio" id="Verbal" name="Verbal110" value="0">0</label>
+                    <label><input type="radio" id="Verbal" name="Verbal110" value="1">1</label>
+                    <label><input type="radio" id="Verbal" name="Verbal110" value="2">2</label>
+                    <label><input type="radio" id="Verbal" name="Verbal110" value="3">3</label>
+                    <label><input type="radio" id="Verbal" name="Verbal110" value="4">4</label>
+                    <label><input type="radio" id="Verbal" name="Verbal110" value="5">5</label>
+                </div>
+            </li>
+            <li>Aprender cómo manejar los datos (nóminas, inventarios, egresos, ingresos, etc.), de un Corporativo.
+                <br />
+                <div id="Organizacion" class="Organizacion">
+                    <label><input type="radio" id="Organizacion" name="Organizacion111" value="0">0</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion111" value="1">1</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion111" value="2">2</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion111" value="3">3</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion111" value="4">4</label>
+                    <label><input type="radio" id="Organizacion" name="Organizacion111" value="5">5</label>
+                </div>
+            </li>
+            <li>Diseñar guías de examen con problemas y ejercicios de matemáticas para la clase. <br />
+                <div id="Numerica" class="Numerica">
+                    <label><input type="radio" id="Numerica" name="Numerica112" value="0">0</label>
+                    <label><input type="radio" id="Numerica" name="Numerica112" value="1">1</label>
+                    <label><input type="radio" id="Numerica" name="Numerica112" value="2">2</label>
+                    <label><input type="radio" id="Numerica" name="Numerica112" value="3">3</label>
+                    <label><input type="radio" id="Numerica" name="Numerica112" value="4">4</label>
+                    <label><input type="radio" id="Numerica" name="Numerica112" value="5">5</label>
+                </div>
+            </li>
+            <li>Interpretar diversos estilos de música en un grupo de voces.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical113" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical113" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical113" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical113" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical113" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical113" value="5">5</label>
+                </div>
+            </li>
+            <li>Atornillar y desatornillar rápidamente y sin errores un reloj de pulso.<br />
+                <div id="CoordinacionVisomotriz" class="CoordinacionVisomotriz">
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz114" value="0">0</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz114" value="1">1</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz114" value="2">2</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz114" value="3">3</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz114" value="4">4</label>
+                    <label><input type="radio" id="CoordinacionVisomotriz" name="CoordinacionVisomotriz114" value="5">5</label>
+                </div>
+            </li>
+            <li>Identificar las habilidades y fortalezas de los miembros de un grupo para asignarles responsabilidades
+                en una tarea determinada<br />
+                <div id="Directiva" class="Directiva">
+                    <label><input type="radio" id="Directiva" name="Directiva115" value="0">0</label>
+                    <label><input type="radio" id="Directiva" name="Directiva115" value="1">1</label>
+                    <label><input type="radio" id="Directiva" name="Directiva115" value="2">2</label>
+                    <label><input type="radio" id="Directiva" name="Directiva115" value="3">3</label>
+                    <label><input type="radio" id="Directiva" name="Directiva115" value="4">4</label>
+                    <label><input type="radio" id="Directiva" name="Directiva115" value="5">5</label>
+                </div>
+            </li>
+            <li>Entender, fácilmente, la explicación de un experto militar sobre la forma en que se combinan la
+                electrónica, la electricidad y la mecánica, en la construcción del armamento militar.<br />
+                <div id="Mecanica" class="Mecanica">
+                    <label><input type="radio" id="Mecanica" name="Mecanica116" value="0">0</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica116" value="1">1</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica116" value="2">2</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica116" value="3">3</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica116" value="4">4</label>
+                    <label><input type="radio" id="Mecanica" name="Mecanica116" value="5">5</label>
+                </div>
+            </li>
+            <li>Preparar y dar un discurso a un auditorio acerca de la necesidad de cuidar la Tierra del Forma Tal que
+                logres convencer a la gente de lo grave del deterioro ambiental y la urgencia de tomar las medidas
+                necesarias.<br />
+                <div id="Persuasiva" class="Persuasiva">
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva117" value="0">0</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva117" value="1">1</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva117" value="2">2</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva117" value="3">3</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva117" value="4">4</label>
+                    <label><input type="radio" id="Persuasiva" name="Persuasiva117" value="5">5</label>
+                </div>
+            </li>
+            <li>Recordar fácilmente tonadas y letras de las piezas musicales que más te agradan.<br />
+                <div id="Musical" class="Musical">
+                    <label><input type="radio" id="Musical" name="Musical118" value="0">0</label>
+                    <label><input type="radio" id="Musical" name="Musical118" value="1">1</label>
+                    <label><input type="radio" id="Musical" name="Musical118" value="2">2</label>
+                    <label><input type="radio" id="Musical" name="Musical118" value="3">3</label>
+                    <label><input type="radio" id="Musical" name="Musical118" value="4">4</label>
+                    <label><input type="radio" id="Musical" name="Musical118" value="5">5</label>
+                </div>
+            </li>
+            <li>Rediseñar con facilidad los lugares de un estacionamiento de coches de forma tal que haya más cupo y
+                fluidez de automóviles.<br />
+                <div id="Espacial" class="Espacial">
+                    <label><input type="radio" id="Espacial" name="Espacial119" value="0">0</label>
+                    <label><input type="radio" id="Espacial" name="Espacial119" value="1">1</label>
+                    <label><input type="radio" id="Espacial" name="Espacial119" value="2">2</label>
+                    <label><input type="radio" id="Espacial" name="Espacial119" value="3">3</label>
+                    <label><input type="radio" id="Espacial" name="Espacial119" value="4">4</label>
+                    <label><input type="radio" id="Espacial" name="Espacial119" value="5">5</label>
+                </div>
+            </li>
+            <li>Decorar objetos cerámicos, o de piel, de madera, de barro, etcétera.<br />
+                <div id="ArtisticoPlastica" class="ArtisticoPlastica">
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica120" value="0">0</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica120" value="1">1</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica120" value="2">2</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica120" value="3">3</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica120" value="4">4</label>
+                    <label><input type="radio" id="ArtisticoPlastica" name="ArtisticoPlastica120" value="5">5</label>
+                </div>
+            </li>
+        </ol>
+        <br />
+        <button>Calcular</button>
+        <button type="reset">Reintentar</button>
+    </form>
+    <script>
+
+    </script>
+</body>
+
+</html>
+
+{% endblock %}

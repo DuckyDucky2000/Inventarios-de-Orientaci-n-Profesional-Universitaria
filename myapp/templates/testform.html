@@ -1,0 +1,20 @@
+{% extends 'layouts/base.html' %}
+{% block content %}
+
+    <h1>Test Form</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>Save</button>        
+    </form>
+
+    {{ totalsum }}
+
+{% endblock %}
+{% block extrajs %}
+<script>
+    $('#num1, #num2, #num3').on('input',function(e){
+        $('#total_sum').val(parseInt($('#num1').val()) + parseInt($('#num2').val()) + parseInt($('#num3').val()));
+    });
+</script>
+{% endblock extra js %}
